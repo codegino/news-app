@@ -1,0 +1,150 @@
+:root {
+  --spacing-big: 3.125rem;
+  --spacing-medium: 1.5625rem;
+  --spacing-small: 0.625rem;
+  --spacing-very-small: 0.15625rem;
+
+  --light-gray-1: hsl(0, 0%, 93%);
+  --light-gray-2: hsl(0, 0%, 73%);
+  --dark-gray-1: hsl(0, 0%, 13%);
+  --dark-gray-2: hsl(0, 0%, 47%);
+
+  --color-primary-h: 140;
+  --color-constant-dark: hsl(var(--color-primary-h), 100%, 3%);
+  --color-constant-light: hsl(0, 0%, 100%);
+}
+
+:root {
+  --color-primary-light: hsl(140, 100%, 98%);
+  --color-primary-100: hsl(140, 100%, 95%);
+  --color-primary-200: hsl(140, 100%, 85%);
+  --color-primary-300: hsl(140, 100%, 80%);
+  --color-primary-400: hsl(140, 100%, 75%);
+  --color-primary-500: hsl(140, 100%, 60%);
+  --color-primary-600: hsl(140, 100%, 50%);
+  --color-primary-700: hsl(140, 100%, 40%);
+  --color-primary-800: hsl(140, 100%, 30%);
+  --color-primary-900: hsl(140, 100%, 20%);
+  --color-primary-dark: hsl(140, 100%, 2%);
+}
+
+[data-theme='light'] {
+  --color-primary: hsl(140, 100%, 30%);
+  --color-primary-contrast: hsl(0, 0%, 100%);
+  --color-primary-light: hsl(80, 69%, 49%);
+  --color-primary-dark: hsl(var(--color-primary-h), 100%, 25%);
+  --color-primary-accent: hsl(104, 100%, 47%);
+
+  --color-dark: var(--color-constant-dark);
+  --color-dark-contrast: hsl(0, 0%, 100%);
+  --color-dark-light: hsl(0, 0%, 33%);
+  --color-dark-dark: hsl(0, 0%, 0%);
+  --color-dark-accent: hsl(var(--color-primary-h), 100%, 25%);
+
+  --color-light: hsl(0, 0%, 95%);
+  --color-light-contrast: hsl(0, 1%, 15%);
+  --color-light-light: hsl(0, 0%, 100%);
+  --color-light-dark: hsl(0, 0%, 81%);
+  --color-light-accent: hsl(0, 0%, 93%);
+
+  --color-foreground: hsl(0, 0%, 0%);
+  --color-background: hsl(0, 0%, 100%);
+}
+
+[data-theme='dark'] {
+  --color-foreground: hsl(0, 0%, 100%);
+  --color-background: var(--color-constant-dark);
+  --color-primary: hsl(140, 100%, 30%);
+  --color-primary-contrast: hsl(0, 0%, 100%);
+  --color-primary-dark: hsl(80, 69%, 49%);
+  --color-primary-light: hsl(var(--color-primary-h), 100%, 25%);
+  --color-primary-accent: hsl(104, 100%, 47%);
+
+  --color-light: hsl(0, 0%, 13%);
+  --color-light-contrast: hsl(0, 0%, 100%);
+  --color-light-light: hsl(0, 0%, 0%);
+  --color-light-dark: hsl(0, 0%, 33%);
+  --color-light-accent: hsl(120, 100%, 25%);
+
+  --color-dark: hsl(0, 0%, 95%);
+  --color-dark-contrast: rgb(39, 38, 38);
+  --color-dark-dark: hsl(0, 0%, 100%);
+  --color-dark-light: hsl(0, 0%, 81%);
+  --color-dark-accent: hsl(0, 0%, 93%);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+li {
+  @apply leading-none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  @apply text-base;
+}
+
+p {
+  margin: 0;
+  @apply text-base;
+  @apply leading-normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+h1 {
+  margin: var(--spacing-medium) 0;
+  text-align: center;
+  @apply font-black;
+  @apply text-2xl;
+  @apply sm:text-4xl;
+}
+
+h2 {
+  margin: var(--spacing-small) 0;
+  @apply font-extrabold;
+  @apply text-xl;
+  @apply sm:text-2xl;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin: var(--spacing-very-small) 0;
+  @apply font-bold;
+  @apply text-lg;
+  @apply sm:text-xl;
+}
+
+h4 {
+  margin: var(--spacing-very-small) 0;
+  padding-left: var(--spacing-very-small);
+  @apply font-semibold;
+  @apply text-lg;
+  @apply sm:text-base;
+}
+
+h5,
+h6 {
+  @apply text-base;
+  margin: var(--spacing-very-small) 0;
+  padding-left: var(--spacing-small);
+  @apply font-semibold;
+}
+
+svg {
+  @apply inline-block;
+}

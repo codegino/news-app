@@ -1,0 +1,36 @@
+{
+  "conventionalCommits.scopes": [
+    "cleanup",
+    "config",
+    "hero",
+    "deps",
+    "resume",
+    "layout",
+    "about-me",
+    "component",
+    "utils",
+    "about",
+    "perf",
+    "home",
+    "blog",
+    "seo",
+    "vocab"
+  ],
+  "grammarly.overrides": [
+    {
+      "config": {
+        "audience": "general",
+        "dialect": "american",
+        "domain": "technical",
+        "emotions": [
+          "confident",
+          "joyful",
+          "optimistic",
+          "respectful",
+          "friendly"
+        ],
+        "goals": ["inform", "describe"]
+      }
+    }
+  ]
+}
