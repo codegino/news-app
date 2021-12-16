@@ -14,7 +14,7 @@ export default function Home({
         {commonMetaTags('Home Page')}
       </Head>
       <main className="flex flex-col items-center">
-        <h1>Current News</h1>
+        <h1>Sports News</h1>
         <NewsContent news={news} />
       </main>
     </>
@@ -22,7 +22,7 @@ export default function Home({
 }
 
 export const getStaticProps = async () => {
-  const news: News[] = await fetchNews();
+  const news: News[] = await fetchNews('&category=sports');
 
   return {
     props: {news},
