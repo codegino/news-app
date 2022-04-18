@@ -499,44 +499,52 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
-"@supabase/gotrue-js@^1.21.7":
-  version "1.21.7"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.21.7.tgz#ec3fdf2199a28fb65c1ae94a3c10032536c0aa4e"
-  integrity sha512-YnL4cO3Q+ugatWEtgCEnLt+Wwi0VpOVTPSSjSSUho2x3cH7+juRBTrVbYky/W6YVgAw/ZJrVUFPh/NcUCUhdmw==
-  dependencies:
-    cross-fetch "^3.0.6"
-
-"@supabase/postgrest-js@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.35.0.tgz#a00bda3a0af75e2af6eb31b47742ba112e74686c"
-  integrity sha512-z+XKJ2oXuGEAEBVXseeQUXaM3ekQZK4XF0Kc399Glyg+rZaBTwNeJtY+Q/23NcIE5uNMYbTnEXm80jZbLBnWdw==
-  dependencies:
-    cross-fetch "^3.0.6"
-
-"@supabase/realtime-js@^1.3.3":
+"@supabase/functions-js@^1.3.3":
   version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.3.3.tgz#973c4cacf8062b4f1e435a0b250a2758e16e15f1"
-  integrity sha512-9D79jlo/56VQf/U7TWhu24epCoj0vWJ7ALkGcqci8Luk/iOcdCxY1NJ76BbS1UnpXEIvQxQGb1R5NSexriKcUA==
+  resolved "https://registry.yarnpkg.com/@supabase/functions-js/-/functions-js-1.3.3.tgz#74803fec71f1e3b734d32a3b116ea494cfcc122d"
+  integrity sha512-35vO9niHRtzGe1QSvXKdOfvGPiX2KC44dGpWU6y0/gZCfTIgog/soU9HqABzQC/maVowO3hGLWfez5aN0MKfow==
   dependencies:
-    "@types/websocket" "^1.0.3"
+    cross-fetch "^3.1.5"
+
+"@supabase/gotrue-js@^1.22.12":
+  version "1.22.12"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.22.12.tgz#78caaef13ef9bdacfcbabceb803ac79de52c6ad3"
+  integrity sha512-/baPkNiumE2B+OLSpvZquDsTqnOTAsG/07GBq5rXU8/e0rSyjljAFf8gnawGPezjlDGTFr2fjRYs0BYMz4LD/A==
+  dependencies:
+    cross-fetch "^3.0.6"
+
+"@supabase/postgrest-js@^0.37.2":
+  version "0.37.2"
+  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.37.2.tgz#4243587eea5ad9507371fcdc4b3ec096d652ad03"
+  integrity sha512-3Dgx5k3RvtKqc8DvR2BEyh2fVyjZe5P4e0zD1r8dyuVmpaYDaASZ2YeNVgyWXMCWH7xzrj4vepTYlKwfj78QLg==
+  dependencies:
+    cross-fetch "^3.0.6"
+
+"@supabase/realtime-js@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.7.1.tgz#57c96494a60b40e6bb57f18826a51f1d34f9a2bf"
+  integrity sha512-ovp9UXzi3ibA/AOyL4CXW7hjbrR+ZQoxbJZ8rfZTSMpqYhT8Jl8/sLUozMobIzSV6gsZYuHR3QnzJmemzvBQhg==
+  dependencies:
+    "@types/phoenix" "^1.5.4"
     websocket "^1.0.34"
 
-"@supabase/storage-js@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.5.0.tgz#5a8390e3102eaab80d394e1734b0ba6c52a3c2cc"
-  integrity sha512-ki2HT9FrCYRN3yoqWqX+u47TUHQ8lgSStAqV/97kMov1z2d+iIlqGBGVcaGDqq4NvK8CipG8IJARYM72oX+afA==
+"@supabase/storage-js@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.7.0.tgz#42536489d8807d3feefe8fff9acff14efc0bad74"
+  integrity sha512-f5EBw0wM96hKmnrXhgiqq2Reh9O0NgjKE+jkaKY4jQmfutefqaCAWn+cBzlmHs9h135H2ldaGmhWRFHUSkLt2g==
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@1.28.5":
-  version "1.28.5"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.28.5.tgz#359724ceda630f54a4fd403e225b68128c29b1a7"
-  integrity sha512-RZFSkj0tC6YppUVOBDldLLko4BgV8ASY+OiXC1ZxpcwmNInPgGiDkv59kVPN1UC96vnRQ/1fbFngPcwTtb1Qjw==
+"@supabase/supabase-js@1.34.1":
+  version "1.34.1"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.34.1.tgz#03482fb7e6bb96739f3bae8ad990e6def7f9b6f6"
+  integrity sha512-0K9iJXvGcg+iBrUXf9vBlCObPVXn7B77tdCUcaw2/0XgJJBNFg90t43zNnY51KdjT1AZCm/1Kpwx2zd7FdCzKQ==
   dependencies:
-    "@supabase/gotrue-js" "^1.21.7"
-    "@supabase/postgrest-js" "^0.35.0"
-    "@supabase/realtime-js" "^1.3.3"
-    "@supabase/storage-js" "^1.5.0"
+    "@supabase/functions-js" "^1.3.3"
+    "@supabase/gotrue-js" "^1.22.12"
+    "@supabase/postgrest-js" "^0.37.2"
+    "@supabase/realtime-js" "^1.7.1"
+    "@supabase/storage-js" "^1.7.0"
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -578,6 +586,11 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
+"@types/phoenix@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@types/phoenix/-/phoenix-1.5.4.tgz#c08a1da6d7b4e365f6a1fe1ff9aada55f5356d24"
+  integrity sha512-L5eZmzw89eXBKkiqVBcJfU1QGx9y+wurRIEgt0cuLH0hwNtVUxtx+6cu0R2STwWj468sjXyBYPYDtGclUd1kjQ==
+
 "@types/prop-types@*":
   version "15.7.4"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
@@ -615,13 +628,6 @@
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
-
-"@types/websocket@^1.0.3":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@types/websocket/-/websocket-1.0.4.tgz#1dc497280d8049a5450854dd698ee7e6ea9e60b8"
-  integrity sha512-qn1LkcFEKK8RPp459jkjzsfpbsx36BBt3oC3pITYtkoBw/aVX+EZFa5j3ThCRTNpLFvIMr5dSTD4RaMdilIOpA==
-  dependencies:
-    "@types/node" "*"
 
 "@typescript-eslint/parser@^5.0.0":
   version "5.7.0"
@@ -1497,6 +1503,13 @@ cross-fetch@^3.0.6, cross-fetch@^3.1.0:
   integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
   dependencies:
     node-fetch "2.6.1"
+
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
 
 cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -3520,6 +3533,13 @@ node-fetch@2.6.2:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.2.tgz#986996818b73785e47b1965cc34eb093a1d464d0"
   integrity sha512-aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==
 
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-gyp-build@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
@@ -4877,6 +4897,11 @@ tr46@^3.0.0:
   dependencies:
     punycode "^2.1.1"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 ts-node@^9:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
@@ -5089,6 +5114,11 @@ watchpack@2.3.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
@@ -5130,6 +5160,14 @@ whatwg-url@^10.0.0:
   dependencies:
     tr46 "^3.0.0"
     webidl-conversions "^7.0.0"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 whatwg-url@^7.0.0:
   version "7.1.0"
