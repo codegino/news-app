@@ -23,7 +23,7 @@
     "use-dark-mode": "2.3.1"
   },
   "devDependencies": {
-    "@supabase/supabase-js": "1.28.5",
+    "@supabase/supabase-js": "2.0.3",
     "@trivago/prettier-plugin-sort-imports": "3.1.1",
     "@types/react": "17.0.37",
     "@types/react-transition-group": "4.4.4",
